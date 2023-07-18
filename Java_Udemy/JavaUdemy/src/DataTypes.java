@@ -44,7 +44,5 @@ public class DataTypes {
         System.out.println("A double data type minimum values corresponds to "+ Double.MIN_VALUE);
         System.out.println("\n");
 
-        char myChar = '\u266A';
-        System.out.println(myChar);
     }
 }

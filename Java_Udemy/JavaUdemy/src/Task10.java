@@ -32,21 +32,11 @@ public class Task10 {
 
                 // aca un if o switch para las distintas opciones.
                 switch (opcionIndice) {
-                    case 1:
-                        JOptionPane.showMessageDialog(null, "Usuario actualizado correctamente");
-                        break;
-                    case 2:
-                        JOptionPane.showMessageDialog(null, "Usuario eliminado correctamente");
-                        break;
-                    case 3:
-                        JOptionPane.showMessageDialog(null, "Usuario agregado correctamente");
-                        break;
-                    case 4:
-                        JOptionPane.showMessageDialog(null, "Usuario listado correctamente");
-                        break;
-                    case 5:
-                        JOptionPane.showMessageDialog(null, "Has salido con exito");
-                        break;
+                    case 1 -> JOptionPane.showMessageDialog(null, "Usuario actualizado correctamente");
+                    case 2 -> JOptionPane.showMessageDialog(null, "Usuario eliminado correctamente");
+                    case 3 -> JOptionPane.showMessageDialog(null, "Usuario agregado correctamente");
+                    case 4 -> JOptionPane.showMessageDialog(null, "Usuario listado correctamente");
+                    case 5 -> JOptionPane.showMessageDialog(null, "Has salido con exito");
                 }
             }
         } while (opcionIndice != 5);

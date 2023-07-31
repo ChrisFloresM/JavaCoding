@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+
+/*This excercise is not finished yet*/
 public class JavaArrayList {
 
     public static void main(String[] args) {
